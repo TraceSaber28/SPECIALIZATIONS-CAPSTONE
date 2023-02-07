@@ -1,0 +1,121 @@
+#details-screen {
+  width: 100%;
+  height: 93.8vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(75, 75, 75);
+}
+
+#details-display {
+  width: 85%;
+  height: 60vh;
+  border: 2px solid rgb(164, 55, 61);
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+#legend-details-header {
+  width: 100%;
+  height: 10vh;
+  background-color: rgba(145, 5, 12, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+
+.legend-header-titles {
+  margin: 0px;
+}
+
+#legend-details-header h1 {
+  font-size: 50px;
+  color: white;
+}
+
+#legend-details-header h2 {
+  font-size: 20px;
+  color: white;
+  margin-bottom: 1vh;
+}
+
+#text-display {
+  width: 100%;
+  height: 50vh;
+  background-color: white;
+}
+
+#legend-details-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#passive-container {
+  width: 33.3%;
+  height: 45vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#tactical-container {
+    border-left: 2px solid rgb(164, 55, 61);
+  width: 33.3%;
+  height: 45vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#ultimate-container {
+    border-left: 2px solid rgb(164, 55, 61);
+  width: 33.3%;
+  height: 45vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.details-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 40px;
+  margin: 0px;
+}
+
+.details-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0px;
+  font-size: 25px;
+}
+
+.details-description {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: 0px;
+  font-size: 20px;
+  height: 12vh;
+  box-sizing: border-box;
+}
+
+
